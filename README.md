@@ -161,15 +161,6 @@ function lib:Window(text, preset, closebind)
         end
     )
 
-    local HotKey = Enum.KeyCode.V-- Key to open Gui --
-	local UIS = game:GetService("UserInputService")
-	
-	UIS.InputBegan:Connect(function(Key)
-		if Key.KeyCode == HotKey then
-			Main.Visible = not Main.Visible
-		end
-	end)
-end
 
     TabFolder.Name = "TabFolder"
     TabFolder.Parent = Main
