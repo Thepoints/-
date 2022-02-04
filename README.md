@@ -161,7 +161,6 @@ function lib:Window(text, preset, closebind)
         end
     )
 
-
     TabFolder.Name = "TabFolder"
     TabFolder.Parent = Main
     
